@@ -18,3 +18,8 @@ For instance, if you want to create a button that shows you the date, that's on 
 </html>
 ```
 
+---
+
+Edit, *Friday, August 26*: I must be a **real** dummy that I thought JS was a front-end language.
+
+JS is a back-end langauge, as it cannot be interacted with.
