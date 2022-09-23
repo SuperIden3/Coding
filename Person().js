@@ -4,13 +4,13 @@
 */
 var Person = (name, gender, age) => {
     console.log('Hello there!');
-    document.write('Hello there!');
+    // document.write('Hello there!');
     console.log('My name is ' + (name + '!'));
-    document.write('My name is ' + (name + '!'));
+    // document.write('My name is ' + (name + '!'));
     console.log('I am a ' + (gender + '.'));
-    document.write('I am a ' + (gender + '.'))
+    // document.write('I am a ' + (gender + '.'))
     console.log('I am ' + (age + ' years old!'));
-    document.write('I am ' + (age + ' years old!');
+    // document.write('I am ' + (age + ' years old!');
     //If your age is less than (or equal to) 5, you are a baby.
     if (age <= 5) {
         console.log('I am a baby.');
