@@ -11,9 +11,6 @@ var Person = (name, gender, age) => {
     document.write('I am a ' + (gender + '.'))
     console.log('I am ' + (age + ' years old!'));
     document.write('I am ' + (age + ' years old!');
-                   /*
-			This is the bonus below.
-		   */
     //If your age is less than (or equal to) 5, you are a baby.
     if (age <= 5) {
         console.log('I am a baby.');
