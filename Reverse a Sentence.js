@@ -1,3 +1,7 @@
+/**
+ * Reverse a sentence.
+ * @param {string} string The sentence to reverse.
+ */
 var reverseSentence = string => {
   let punctuation = string.charAt(string.length - 1)
   string = string.replace(punctuation, "")
@@ -11,4 +15,6 @@ var reverseSentence = string => {
 // Example: "Hello there!" Becomes "There hello!"
 // Abbreviation:
 var rs = reverseSentence
-	
+
+// Sentence must require punctuation, or else the last letter of the sentence will be moved to be the first.
+// Note: Special names, like "GitHub", used at the beginning returns "gitHub" at the end.
