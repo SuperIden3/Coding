@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script defer>
+			console.log(document.querySelector("main"))
+		</script>
+		<style>
+			#_currentNumber {
+				font-family: times new roman, serif;
+			}
+		</style>
+		<title>Simple Counter</title>
+	</head>
+	<body>
+		<main>
+			<form>
+				<input id="_step" type="number" tabindex="1" />
+				<br/>
+				<input tabindex="4" type="button" value="/" id="_dec_div" onclick="_currentNumber.innerText = parseFloat(_currentNumber.innerText) / (parseFloat(_step.value) || 0)" />
+				<input tabindex="2" type="button" value="-" id="_dec" onclick="_currentNumber.innerText = parseFloat(_currentNumber.innerText) - (parseFloat(_step.value) || 0)"  />
+				<span id="_currentNumber">0</span>
+				<input tabindex="3" type="button" value="+" id="_inc" onclick="_currentNumber.innerText = parseFloat(_currentNumber.innerText) + (parseFloat(_step.value) || 0)" />
+				<input tabindex="5" type="button" value="*" id="_inc_times" onclick="_currentNumber.innerText = parseFloat(_currentNumber.innerText) * (parseFloat(_step.value) || 0)" />
+				<br/>
+				<input tabindex="6" type="button" value="Reset" id="_res" onclick="_currentNumber.innerText = 0" />
+			</form>
+		</main>
+	</body>
+</html>
