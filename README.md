@@ -6,7 +6,7 @@ alert('Check out the code!')
 
 `JavaScript` is what creates the behavior of a page. It is a **back-end** code.
 
-For instance, if you want to create a button that shows you the date, that's on your device, printed on a new line, you would use `JavaScript`, along with some `HTML`.
+For example, if you want to create a button that shows you the date, that's on your device, printed on a new line, you would use `JavaScript`, along with some `HTML`.
 
 ```html
 <!DOCTYPE html>
