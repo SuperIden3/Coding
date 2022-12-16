@@ -1,0 +1,32 @@
+{
+  "name": "writing-and-reading-chunks-with-transformstream",
+  "version": "1.0.0",
+  "description": "A simple project in which takes in an input, writes that input to the document, then can read that chunk.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [
+    "streams",
+    "nodejs",
+    "transformstream",
+    "stream"
+  ],
+  "author": "SuperIden3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  },
+  "dependencies": {
+    "ts-ignore": "0.0.3"
+  }
+}
