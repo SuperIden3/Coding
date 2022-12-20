@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "languages": {
+    "nodejs-npm": {
+      "specfileHash": "454f40c072199e8beefe208393da0d69",
+      "lockfileHash": "0871016493b5f4f8d8473f18a081c933"
+    }
+  }
+}
