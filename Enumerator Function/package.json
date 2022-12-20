@@ -1,0 +1,21 @@
+{
+  "name": "enumerate-nodejs",
+  "version": "1.0.0",
+  "description": "Creates a function called `enumerate` in which is a generator function and goes through the indexes and values of an array, or the keys and values of an object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "enumerate",
+    "nodejs",
+    "forloop",
+    "generator"
+  ],
+  "author": "Chi Zu",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "node-fetch": "^3.2.6"
+  }
+}
