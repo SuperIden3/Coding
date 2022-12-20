@@ -33,3 +33,7 @@ for(const value of iterator)
 console.log("Enumerating", myArray, "...");
 console.log("Values:", values);
 ```
+
+---
+
+Replit: [`enumerate` Function in NodeJS](https://replit.com/@ChiZu1/enumerate-Function-in-NodeJS)
