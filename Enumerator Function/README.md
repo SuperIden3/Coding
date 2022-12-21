@@ -5,11 +5,11 @@ This is a **generator function**, so use it in `for...of` loops for getting all 
 
 ```js
 const myObject = {
-	one: 1,
-	two: 2,
-	three: 3,
-	four: 4,
-	five: 5
+  one: 1,
+  two: 2,
+  three: 3,
+  four: 4,
+  five: 5
 };
 const iterator = enumerate(myObject);
 /**
@@ -17,19 +17,25 @@ const iterator = enumerate(myObject);
  */
 const values = [];
 for(const value of iterator)
-	values.push(value);
+  values.push(value);
 console.log("Enumerating", myObject, "...");
 console.log("Values:", values);
 ```
 ```js
-const myArray = [1, 2, 3, 4, 5];
+const myArray = [
+  1,
+  2,
+  3,
+  4,
+  5
+];
 const iterator = enumerate(myArray);
 /**
  * @type {Array<{index: number, value: any}>}
  */
 const values = [];
 for(const value of iterator)
-	values.push(value);
+  values.push(value);
 console.log("Enumerating", myArray, "...");
 console.log("Values:", values);
 ```
