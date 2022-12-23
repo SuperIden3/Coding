@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-rsra",
+  "version": "1.0.0",
+  "description": "Reads all values of a ReadableStream in NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "rsra",
+    "nodejs",
+    "js",
+    "javascript",
+    "readablestream",
+    "stream"
+  ],
+  "author": "SuperIden3",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.17",
+    "node": "^19.3.0",
+    "node-fetch": "^3.3.0"
+  }
+}
