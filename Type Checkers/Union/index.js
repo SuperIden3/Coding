@@ -1,7 +1,7 @@
 /**
  * Check if a value is one of the expected types.
  * @param {...string} types
- * @returns {types: string[], match: (value: any) => {value: any, valueType: any, matchesType: {yes: boolean, type: string}}, expectedTypes: string[], formatter: Intl.ListFormat}
+ * @returns {{types: string[], match: (value: any) => {value: any, valueType: any, matchesType: {yes: boolean, type: string}}, expectedTypes: string[], formatter: Intl.ListFormat}}
  */
 function Union(...types) {
   return {
