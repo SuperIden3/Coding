@@ -3,7 +3,7 @@ const cet = function createEventTarget(options = {}) {
   if (typeof options === "object" && !Array.isArray(options))
     Object.assign(et, options);
   else
-  if (Array.isArray)
+  if (Array.isArray(options))
     throw new TypeError("Options for function must be an object, not an array.");
   else if (typeof options !== "object")
     throw new TypeError(`Options for function must be an object, not type of ${Array.isArray(options) ? "array" : typeof options}`);
