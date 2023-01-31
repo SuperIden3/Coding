@@ -6,6 +6,6 @@ const cet = function createEventTarget(options = {}) {
   if (Array.isArray(options))
     throw new TypeError("Options for function must be an object, not an array.");
   else if (typeof options !== "object")
-    throw new TypeError(`Options for function must be an object, not type of ${Array.isArray(options) ? "array" : typeof options}`);
+    throw new TypeError(`Options for function must be an object, not type of ${Array.isArray(options) ? "array" : typeof options}.`);
   return et;
 };
