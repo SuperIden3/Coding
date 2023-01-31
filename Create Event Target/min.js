@@ -1,0 +1,1 @@
+const cet=function(r={}){const t=new EventTarget;if("object"!=typeof r||Array.isArray(r)){if(Array.isArray(r))throw new TypeError("Options for function must be an object, not an array.");if("object"!=typeof r)throw new TypeError(`Options for function must be an object, not type of ${Array.isArray(r)?"array":typeof r}.`)}else Object.assign(t,r);return t};
