@@ -74,6 +74,14 @@ try {
       arr[i] = `${voice.name} (${voice.lang})`;
     }
     window.alert(`Voices: ${formatter.format(arr)}`);
+    window.alert(`Note: if you haven't seen any voices in the previous message, please go to "https://github.com/SuperIden3/My-Snippets/blob/main/Simple%20Text%20to%20Speech" and paste the code correctly in a code editor other than CodeSandBox for it to work.\nCodeSandBox was tested on and voices didn't get recieved into the message, so I would not recommend pasting the code in CodeSandBox.\nUse Replit, StackBlitz, or another code editor you know you think it would work on.`);
+    if(window.confirm("Open link? "))
+      if(window.open)
+        window.open("https://github.com/SuperIden3/My-Snippets/blob/main/Simple%20Text%20to%20Speech");
+      else {
+        window.alert("Could not open link, so it will be copied to your clipboard.");
+        window.copy("https://github.com/SuperIden3/My-Snippets/blob/main/Simple%20Text%20to%20Speech");
+      }
   }
 } catch (e) {
   console.error(e);
