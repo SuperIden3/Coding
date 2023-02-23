@@ -53,12 +53,7 @@ try {
     }
   }
   onvoiceschanged();
-  if (
-    typeof speechSynthesis !== "undefined" &&
-    speechSynthesis.onvoiceschanged !== undefined
-  ) {
-    speechSynthesis.onvoiceschanged = onvoiceschanged;
-  }
+  speechSynthesis.onvoiceschanged = onvoiceschanged;
   speak.addEventListener("click", (e) => {
     speechSynthesis.cancel();
     textToRead.pitch = pitch.value;
