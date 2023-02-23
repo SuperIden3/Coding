@@ -8,5 +8,3 @@ Then, press the _Speak_ button to set configurations for the `SpeechSynthesisUtt
 ---
 
 CodeSandBox: https://codesandbox.io/s/simple-text-to-speech-esxwtk?file=/README.md
-
-StackBlitz: https://web-platform-bdn1vc.stackblitz.io
