@@ -1,6 +1,7 @@
 /**
  * Reverse a sentence.
  * @param {string} string The sentence to reverse.
+ * @returns {string}
  */
 function reverseSentence(string) {
   let punctuation = string.charAt(string.length - 1);
