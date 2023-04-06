@@ -24,3 +24,4 @@ const range = (start,end,step = 1) => {
     }
 }
 // Arguments must be type of number, not equal to each other, and must not equal to Infinity, for preventing a crash.
+export default range;
